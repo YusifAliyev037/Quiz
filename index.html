@@ -10,13 +10,13 @@
 
     <div class="p-5 color" id="color">
         <h1 class="display-1 text-center">Questions Game</h1>
-        <h1 class="display-5 text-center">Your Point: 0</h1>
+        <h1 class="display-5 text-center">Your Point:<span id="incrementPoint">0</span></h1>
 
     </div>
     <div class="progress bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar bg-light" style="width: 75%"></div>
+        <div id="progress" class="progress-bar bg-light" style="width: 100%"></div>
       </div>
-    <div class="p-5">
+    <div class="p-5" id="quizBox">
         <h2 class="h4 text-white text-center" id="qTitle">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quibusdam necessitatibus. Assumenda totam perspiciatis saepe cumque exercitationem quibusdam beatae officia veniam accusantium minima dolorem unde velit impedit, nostrum illo voluptas.
         </h2>
@@ -26,6 +26,11 @@
              <button class="btn btn-outline-light ">C. Lorem Ipsum</button>
              <button class="btn btn-outline-light ">D. Lorem Ipsum</button>
              <button class="btn btn-outline-light ">E. Lorem Ipsum</button> -->
+        </div>
+    </div>
+    <div class="  w-50 mx-auto "  >
+        <div id="finishG" class=" finish alert alert-danger my-5" role="alert">
+            Finish!
         </div>
     </div>
  
